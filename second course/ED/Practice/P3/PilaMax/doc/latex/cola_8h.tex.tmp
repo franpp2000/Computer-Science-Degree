@@ -1,0 +1,24 @@
+\hypertarget{cola_8h}{}\section{include/cola.h File Reference}
+\label{cola_8h}\index{include/cola.\+h@{include/cola.\+h}}
+
+
+Fichero cabecera del T\+DA \hyperlink{classCola}{Cola}.  
+
+
+{\ttfamily \#include $<$cassert$>$}\newline
+{\ttfamily \#include \char`\"{}../src/cola.\+cpp\char`\"{}}\newline
+Include dependency graph for cola.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classCola}{Cola$<$ T $>$}
+\begin{DoxyCompactList}\small\item\em T.\+D.\+A. \hyperlink{classCola}{Cola}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Fichero cabecera del T\+DA \hyperlink{classCola}{Cola}. 
+
+Gestiona una secuencia de elementos con facilidades para la inserción y borrado de elementos en un extremo 

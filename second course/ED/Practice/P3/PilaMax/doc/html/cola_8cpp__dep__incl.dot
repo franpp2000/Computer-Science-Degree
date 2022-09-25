@@ -1,0 +1,13 @@
+digraph "src/cola.cpp"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node3 [label="src/cola.cpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="include/cola.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cola_8h.html",tooltip="Fichero cabecera del TDA Cola. "];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="include/pila_max_cola.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$pila__max__cola_8h.html",tooltip="Fichero cabecera del TDA Pila. "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="src/pila_max_cola.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$pila__max__cola_8cpp_source.html"];
+}
